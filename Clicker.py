@@ -67,7 +67,6 @@ root = customtkinter.CTk()
 root.geometry("320x250")
 root.resizable(width = False, height = False)
 root.title("AutoClicker")
-root.iconbitmap("./Icon/icon.ico")
 #Bind functions
 root.bind("<KeyPress>",keyEvents)
 
